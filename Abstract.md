@@ -1,14 +1,16 @@
 This hand on was completed as part of Group 1 assignment where the 
 assigned task was Content Based Filtering. The dataset used is the 
-MovieLens dataset which contains 9742 movies with features including 
-movieId, title and genres. Movie features were extracted by parsing 
-genres using one hot encoding and extracting the release year from 
-movie titles. A cosine similarity matrix was computed between all 
-movies based on their genre features to measure movie similarity. 
-A movie recommendation function was built to suggest the top similar 
-movies for any given title. User profiles were constructed by averaging 
-the genre feature vectors of historically watched movies for each user 
-and personalized recommendations were generated based on each user 
-profile similarity to all available movies. The results demonstrate 
-that content based filtering is an effective approach for movie 
-recommendation when user historical preferences are available.
+MovieLens 100K dataset which contains 4 files — movies with 9742 
+entries, ratings with 100836 user ratings, tags with 3683 entries 
+and links connecting movies to IMDB and TMDB. Movie features were 
+extracted by parsing genres using one hot encoding and extracting 
+release years from movie titles. A cosine similarity matrix was 
+computed between all movies based on genre features to measure 
+movie to movie similarity. User profiles were constructed by 
+averaging the genre feature vectors of movies rated above 3.5 
+by each user based on their historical rating preferences. 
+Personalized recommendations were generated for each user by 
+computing similarity between their profile and all unrated movies. 
+The results demonstrate that content based filtering effectively 
+captures user preferences and provides meaningful movie recommendations 
+based on genre similarity and historical viewing behavior.
