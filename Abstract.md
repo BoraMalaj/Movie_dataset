@@ -1,4 +1,4 @@
-This project was completed as part of Group 1 assignment where the 
+This hand on was completed as part of Group 1 assignment where the 
 assigned task was Content Based Filtering. The dataset used is the 
 MovieLens dataset which contains 9742 movies with features including 
 movieId, title and genres. Movie features were extracted by parsing 
